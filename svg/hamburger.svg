@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+  <g transform="translate(0,15)">
+    <defs>
+      <rect x="0" y="0" id="bar" height="5" width="54" fill="white"/>
+    </defs>
+    <use x="5" y="0" xlink:href="#bar">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0,0" to="0,-10" dur="0.5s" fill="freeze" repeatCount="indefinite"/>
+    </use>
+    <use x="5" y="10" xlink:href="#bar" />
+    <use x="5" y="20" xlink:href="#bar">
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0,0" to="0,10" dur="0.5s" fill="freeze" repeatCount="indefinite"/>
+    </use>
+  </g>
+</svg>
