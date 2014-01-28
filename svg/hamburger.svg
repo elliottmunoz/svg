@@ -4,11 +4,11 @@
 			<rect x="0" y="0" id="bar" height="5" width="54" fill="white"/>
 		</defs>
 		<use x="5" y="0" xlink:href="#bar">
-			<animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.5s" fill="freeze" values="0,0;0,-10;0,0" repeatCount="indefinite"/>
+			<animateTransform attributeName="transform" type="translate" dur="0.5s" fill="freeze" values="0,0;0,-10;0,0" repeatCount="indefinite"/>
 		</use>
 		<use x="5" y="10" xlink:href="#bar" />
 		<use x="5" y="20" xlink:href="#bar">
-			<animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.5s" fill="freeze" values="0,0;0,10;0,0" repeatCount="indefinite"/>
+			<animateTransform attributeName="transform" type="translate" dur="0.5s" fill="freeze" values="0,0;0,10;0,0" repeatCount="indefinite"/>
 		</use>
 	</g>
 </svg>
