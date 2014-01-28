@@ -1,15 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
-	<g transform="translate(3,13)">
-		<path d="M 0 7 L 54 7" stroke="white" stroke-width="5">
-			<animate attributeName="d" values="M 0 7 L 54 7;M 8 38 L 46 0;M 0 7 L 54 7" dur="0.65s" repeatCount="indefinite">
-		    </animate>
+	<g stroke="white" stroke-width="5" transform="translate(3,13)">
+		<path d="M 0 7 L 54 7">
+			<animate attributeName="d" values="M 0 7 L 54 7;M 8 38 L 46 0;M 0 7 L 54 7" dur="0.65s" repeatCount="indefinite"/>
 		</path>
-		<path d="M 0 17 L 54 17" stroke="white" stroke-width="5">
-          <animate attributeName="opacity" fill="freeze" values="1;0;1" dur="0.65s" repeatCount="indefinite" />
+		<path d="M 0 17 L 54 17">
+          <animate attributeName="opacity" values="1;0;1" dur="0.65s" repeatCount="indefinite" />
 		</path>
-		<path id="bar" d="M 0 27 L 54 27" stroke="white" stroke-width="5">
-			<animate attributeName="d" values="M 0 27 L 54 27;M 8 0 L 46 38;M 0 27 L 54 27" dur="0.65s" repeatCount="indefinite">
-		    </animate>
+		<path id="bar" d="M 0 27 L 54 27">
+			<animate attributeName="d" values="M 0 27 L 54 27;M 8 0 L 46 38;M 0 27 L 54 27" dur="0.65s" repeatCount="indefinite"/>
 		</path>
 	</g>
 </svg>

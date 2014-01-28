@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" height="64" width="64">
+	<g stroke="white" stroke-width="5" transform="translate(3,13)">
+		<path id="testpath" d="M 0 7 L 54 7">
+			<animate id="top-rotate-to" attributeName="d" to="M 8 38 L 46 0" from="M 0 7 L 54 7" dur="0.5s" begin="indefinite" repeatCount="1"/>
+			<animate id="top-rotate-from" attributeName="d" to="M 0 7 L 54 7" from="M 8 38 L 46 0" dur="0.5s" begin="indefinite" repeatCount="1"/>
+		</path>
+		<path d="M 0 17 L 54 17">
+          <animate attributeName="opacity" to="0" from="1" dur="0.5s" begin="indefinite" repeatCount="1" />
+		</path>
+		<path id="bar" d="M 0 27 L 54 27">
+			<animate attributeName="d" to="M 8 0 L 46 38" from="M 0 27 L 54 27" dur="0.5s" begin="indefinite" repeatCount="1"/>
+			<animate attributeName="d" to="M 0 27 L 54 27" from="M 8 0 L 46 38" dur="0.5s" begin="indefinite" repeatCount="1"/>
+		</path>
+	</g>
+</svg>
