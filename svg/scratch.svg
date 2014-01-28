@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
   <rect x="0" y="0" height="64" width="64" fill="black"/>
+  stroke-linecap="round"
   <g transform="translate(17,21)">
     <defs>
       <rect id="rect1" x="0" y="0" width="30" height="22" fill="transparent" stroke="white" stroke-width="3"/>

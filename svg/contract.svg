@@ -4,10 +4,10 @@
       <rect id="rect1" x="0" y="0" width="30" height="22" fill="transparent" stroke="white" stroke-width="3"/>
     </defs>
     <use x="0" y="0" xlink:href="#rect1">
-      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0 0" to="-5 -5" dur="0.5s" fill="freeze" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.5s" fill="freeze" values="0,0;-5,-5;0,0" repeatCount="indefinite"/>
     </use>
     <use x="0" y="0" xlink:href="#rect1">
-      <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0 0" to="-10 -10" dur="0.5s" fill="freeze" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="0.5s" fill="freeze" values="0,0;-10,-10;0,0" repeatCount="indefinite"/>
     </use>
     <use x="0" y="0" xlink:href="#rect1"/>
   </g>
