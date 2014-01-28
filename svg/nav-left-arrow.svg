@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+	<g transform="translate(12,8)">
+		<path d="M 26 0 L 0 20 L 26 40" fill="transparent" stroke="white" stroke-width="4">
+			<animate attributeName="d" attributeType="XML" type="translate" dur="1s" values="M 40 0 L 0 24 L 40 48;M 0 0 L 40 24 L 0 48;M 40 0 L 0 24 L 40 48" repeatCount="indefinite"/>
+		</path>
+	</g>
+</svg>
