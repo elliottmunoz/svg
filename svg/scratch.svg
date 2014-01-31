@@ -13,4 +13,32 @@
     </use>
     <use x="0" y="0" xlink:href="#rect1"/>
   </g>
+  <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" xml:space="preserve">
+    <g fill="transparent" stroke="white" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 4" stroke-dashoffset="100">
+        <circle id="Circle" cx="32" cy="32" r="30" />
+        <line id="Line-bottom" x1="32" y1="45" x2="32" y2="62" />
+        <line id="Line-top" x1="32" y1="2" x2="32" y2="19" />
+        <path id="Sclera-bottom" d="M6,32
+    c0.01,0.011,11.646,13,26,13c14.354,0,25.99-12.987,26-13" />
+        <path id="Sclera-top" d="M58,32
+    c-0.01-0.014-11.646-13-26-13C17.646,19,6.011,31.986,6,32" />
+        <path id="Iris-bottom" d="M19,32c0,7.182,5.819,13,13.001,13
+    C39.18,45,45,39.182,45,32" />
+        <path id="Iris-top" d="M45,32c0-7.181-5.82-13-12.999-13
+ C24.819,19,19,24.819,19,32" />
+ <animate attributeName="stroke-dasharray" attributeType="XML" type="translate" from="4 64" to="0 0" dur="1s" repeatCount="indefinite"/>
+ <animate attributeName="stroke-dashoffset" attributeType="XML" type="translate" from="100" to="0" dur="5s" repeatCount="indefinite"/>
+ 
+    </g>
+    <path id="Pupil" fill="black" d="M32.222,25.115c-0.088-0.154-0.356-0.154-0.444,0C31.705,25.24,30,28.24,30,31.996
+    s1.705,6.754,1.777,6.881C31.822,38.949,31.907,39,32,39s0.177-0.051,0.222-0.123C32.293,38.75,34,35.754,34,31.996
+ C34,28.24,32.293,25.24,32.222,25.115z"/>
+ <path id="outline" fill="transparent" d="M 32, 32 m -30, 0 a 30,30 0 1,0 60,0 a 30,30 0 1,0 -60,0" />
+    <circle id="dot" cx="" cy="" r="2" fill="#f9d721">
+        <animateMotion dur="1s" repeatCount="indefinite">
+            <mpath xlink:href="#outline" />
+        </animateMotion>
+    </circle>
+</svg>
 </svg>
