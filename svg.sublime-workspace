@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getElementById"
+			],
+			[
 				"A",
 				"attributeName"
 			]
@@ -15,11 +19,23 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 107.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"LiveReload: Enable/disable plug-ins"
+			]
 		],
-		"width": 0.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -40,24 +56,30 @@
 	},
 	"file_history":
 	[
-		"/Users/elliottmunoz/GitHub/svg/svg/plus-cross.svg",
+		"/Users/elliottmunoz/GitHub/test/test.html",
+		"/Users/elliottmunoz/GitHub/svg/svg/hamburger.svg",
+		"/Users/elliottmunoz/GitHub/svg/svg/contract.svg",
+		"/Users/elliottmunoz/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/elliottmunoz/GitHub/svg/svg/nav-left-arrow.svg",
+		"/Users/elliottmunoz/GitHub/svg/svg/hamburger-cross-button.svg",
+		"/Users/elliottmunoz/Desktop/svg/circle.svg",
+		"/Users/elliottmunoz/GitHub/svg/interactive.html",
 		"/Users/elliottmunoz/GitHub/svg/index.html",
+		"/Users/elliottmunoz/GitHub/svg/svg/eye.svg",
 		"/Users/elliottmunoz/GitHub/svg/svg/hamburger-cross.svg",
+		"/Users/elliottmunoz/GitHub/svg/svg/scratch.svg",
+		"/Users/elliottmunoz/GitHub/svg/svg/svg.sublime-project",
+		"/Users/elliottmunoz/GitHub/svg/svg/plus-cross.svg",
 		"/Users/elliottmunoz/GitHub/svg/svg/right-arrow.svg",
 		"/Users/elliottmunoz/GitHub/svg/svg/plus.svg",
 		"/Users/elliottmunoz/GitHub/svg/svg/nav-up-arrow.svg",
-		"/Users/elliottmunoz/GitHub/svg/svg/contract.svg",
 		"/Users/elliottmunoz/GitHub/svg/svg/play.svg",
-		"/Users/elliottmunoz/GitHub/svg/svg/nav-left-arrow.svg",
-		"/Users/elliottmunoz/GitHub/svg/svg/eye.svg",
 		"/Users/elliottmunoz/Desktop/svg.svg",
 		"/Users/elliottmunoz/Desktop/sample_svg_code.svg",
-		"/Users/elliottmunoz/GitHub/svg/svg/hamburger.svg",
 		"/Users/elliottmunoz/GitHub/svg/windows.svg",
 		"/Users/elliottmunoz/GitHub/elliottmunoz.github.io/index.html",
 		"/Users/elliottmunoz/Desktop/svg/eye.svg",
 		"/Users/elliottmunoz/Desktop/svg/path_circle.svg",
-		"/Users/elliottmunoz/Desktop/svg/circle.svg",
 		"/Users/elliottmunoz/Desktop/svg/eye.xml",
 		"/Users/elliottmunoz/Desktop/circle.svg",
 		"/Users/elliottmunoz/Desktop/svg/animated_line.svg",
@@ -158,6 +180,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"inter",
+				"interactive.html"
+			],
+			[
+				"svg",
+				"svg/scratch.svg"
+			]
 		],
 		"width": 0.0
 	},
@@ -184,7 +214,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 388.0,
+	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

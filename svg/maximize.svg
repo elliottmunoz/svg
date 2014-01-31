@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+  <g transform="translate(2,2)" fill="white">
+    <path d="M0,0 L3,10 L5.17,7.83 L20.35,23 L23,20.35 L7.82,5.17 L10,3 L0,0">
+      <animateTransform attributeName="transform" type="translate" values="5 5;0 0;5 5" dur="1" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,60 L3,50 L5.17,52.17 L20.35,37 L23,39.65 L7.82,54.83 L10,57 L0,60">
+      <animateTransform attributeName="transform" type="translate" values="5 -5;0 0;5 -5 " dur="1" repeatCount="indefinite"/>
+    </path>
+    <path d="M60,0 L57,10 L54.83,7.83 L39.65,23 L37,20.35 L52.18,5.17 L50,3 L60,0">
+      <animateTransform attributeName="transform" type="translate" values="-5 5;0 0;-5 5" dur="1" repeatCount="indefinite"/>
+    </path>
+    <path d="M60,60 L57,50 L54.83,52.17 L39.65,37 L37,39.65 L52.18,54.83 L50,57 L60,60">
+      <animateTransform attributeName="transform" type="translate" values="-5 -5;0 0;-5 -5" dur="1" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

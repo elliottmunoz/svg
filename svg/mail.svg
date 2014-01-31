@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+	<g transform="translate(2,20)" fill="white">
+		<polygon points="0,2 0,35 60,35 60,2 30,22 "/>
+		<path d="M1 0 L59 0 L30 -19">
+			<animate attributeName="d" type="translate" dur="0.5s" repeatCount="indefinite" values="M1 0 L59 0 L30 19;M1 0 L59 0 L30 -19;M1 0 L59 0 L30 19"/>
+		</path>
+	</g>
+</svg>

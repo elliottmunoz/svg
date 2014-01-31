@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+  <g transform="translate(7,7)" fill="white">
+    <polygon points="0,0 3,10 5.17,7.82 20.35,23 23,20.35 7.82,5.18 10,3 ">
+      <animateTransform attributeName="transform" type="rotate" dur="1s" values="0 11.5 11.5;180 11.5 11.5;0 11.5 11.5;" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="0,50 3,40 5.17,42.18 20.35,27 23,29.65 7.82,44.82 10,47 ">
+      <animateTransform attributeName="transform" type="rotate" dur="1s" values="0 11.5 38.5;-180 11.5 38.5;0 11.5 38.5;" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="50,0 47,10 44.83,7.82 29.65,23 27,20.35 42.18,5.18 40,3 ">
+      <animateTransform attributeName="transform" type="rotate" dur="1s" values="0 38.5 11.5;-180 38.5 11.5;0 38.5 11.5;" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="50,50 47,40 44.83,42.18 29.65,27 27,29.65 42.18,44.82 40,47 ">
+      <animateTransform attributeName="transform" type="rotate" dur="1s" values="0 38.5 38.5;180 38.5 38.5;0 38.5 38.5;" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+</svg>
