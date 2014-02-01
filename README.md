@@ -1,4 +1,4 @@
-#Pure SVG ANimations
+#Pure SVG Animations
 ===
 
 Inspired by the animated SVG icons found [here](http://tympanus.net/Development/AnimatedSVGIcons/ "Animated SVG Icons"). 
