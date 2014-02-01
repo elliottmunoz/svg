@@ -3,7 +3,11 @@
 	[
 		{
 			"follow_symlinks": true,
-			"path": "/Users/elliottmunoz/GitHub/svg"
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/elliottmunoz/GitHub/mapbox"
 		}
 	]
 }
