@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+	<g transform="translate(0,0)">
+		<defs>
+			<clipPath id="clipPath">
+				<path id="circle" d="M30,0C13.432,0,0,13.432,0,30s13.432,30,30,30s30-13.432,30-30S46.568,0,30,0z M30,59C13.984,59,1,46.016,1,30
+					C1,13.984,13.984,1,30,1c16.016,0,29,12.984,29,29C59,46.016,46.016,59,30,59z"/>
+				</clipPath>
+				<radialGradient id="gradient" cx="50%" cy="50%" r="50%" fx="100%" fy="50%">
+					<stop offset="0%" style="stop-color:#f9d721;stop-opacity:1" />
+					<stop offset="100%" style="stop-color:#f9d721;stop-opacity:0" />
+				</radialGradient>
+			</defs>
+			<g style="clip-path: url(#clipPath);">
+				<path id="outline" fill="transparent" d="M 32, 32 m -30, 0 a 30,30 0 1,0 60,0 a 30,30 0 1,0 -60,0" />
+				<circle id="dot" cx="0" cy="0" r="32" fill="url(#gradient)">
+					<animateMotion dur="1" repeatCount="indefinite" rotate="auto">
+						<mpath xlink:href="#outline" />
+					</animateMotion>
+				</circle>
+			</g>
+		</g>
+	</svg>

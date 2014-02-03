@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64" fill="black">
-	<g stroke="#3F4649" stroke-width="2" stroke-linecap="round">
+	<g stroke="#3F4649" stroke-width="1" stroke-linecap="round">
 		<circle id="circle1" cx="32" cy="32" r="13" fill="transparent">
 			<animate id="circle1Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 202" to="202 0" dur="0.5s" repeatCount="1"/>
 		</circle>
@@ -24,6 +24,7 @@
 		C34,28.24,32.293,25.24,32.222,25.115z">
 		<animate id="pupilAnim" attributeName="opacity" to="1" from="0" dur="0.2s" fill="freeze" begin="line2Anim.end" repeatCount="1" />
 	</path>
+	<!--
 	<path id="outline" fill="transparent" d="M 32, 32 m -30, 0 a 30,30 0 1,0 60,0 a 30,30 0 1,0 -60,0" />
 	<circle id="dot" cx="0" cy="0" r="1" fill="#f9d721" opacity="0">
 		<animate id="dotAnim" attributeName="opacity" to="1" from="0" dur="0.1s" fill="freeze" begin="line2Anim.end" repeatCount="1" />
@@ -31,4 +32,5 @@
 			<mpath xlink:href="#outline" />
 		</animateMotion>
 	</circle>
+-->
 </svg>
