@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+	<g transform="translate(0.5,0.5)">
+		<defs>
+			<g id="lines-horizontal" stroke="#DDD" stoke-width="1">
+				<line x1="0" y1="0" x2="64" y2="0"/>
+				<line x1="0" y1="4" x2="64" y2="4"/>
+				<line x1="0" y1="8" x2="64" y2="8"/>
+				<line x1="0" y1="12" x2="64" y2="12"/>
+			</g>
+			<g id="lines-vertical" stroke="#DDD" stoke-width="1">
+				<line x1="0" y1="0" x2="0" y2="64"/>
+				<line x1="4" y1="0" x2="4" y2="64"/>
+				<line x1="8" y1="0" x2="8" y2="64"/>
+				<line x1="12" y1="0" x2="12" y2="64"/>
+			</g>
+		</defs>
+		<use xlink:href="#lines-horizontal" y="0"/>
+		<use xlink:href="#lines-horizontal" y="16"/>
+		<use xlink:href="#lines-horizontal" y="32"/>
+		<use xlink:href="#lines-horizontal" y="48"/>
+		<use xlink:href="#lines-vertical" x="0"/>
+		<use xlink:href="#lines-vertical" x="16"/>
+		<use xlink:href="#lines-vertical" x="32"/>
+		<use xlink:href="#lines-vertical" x="48"/>
+		<rect height="64" width="64" fill="transparent" stroke="#EEE" stoke-width="1"/>
+	</g>
+</svg>
+		

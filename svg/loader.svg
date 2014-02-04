@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="200" width="200">
+	<g transform="translate(0,0)">
+		<circle id="circle" cx="100" cy="100" r="95" fill="transparent" stroke="black" stroke-linecap="round" stroke-width="10">
+			<animate id="circle1Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="10 597" to="597 0" dur="5s" repeatCount="1"/>
+		</circle>
+	</g>
+</svg>
+		
