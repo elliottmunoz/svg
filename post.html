@@ -6,26 +6,27 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sample SVG Elements for Viget Blog Post</title>
-  <style>
-    body{margin: 0; padding: 0;}
-    .sample{float: left; 
-    width: 64px;
-    height: 64px; }
-    .sample img{display: block; height: 100%; width: 100%;}
-    .grid{background: url("svg/examples/grid-line.svg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
-    .dot{background: url("svg/examples/grid-dot.svg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
-  </style>
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
 </head>
 <body>
-  <span class="sample grid"><img src="svg/examples/line-1.svg"/></span>
-  <span class="sample dot"><img src="svg/examples/line-1.svg"/></span>
+  <!--
+  line
+  rectangle
+  circle
+  polygon / defines a closed shape
+  path
+  curve
+  rounded rectangle
+  ellipse
+  polyline / typically define open shpaes
+
+  all objects use presentation attributes and not via CSS style rules
+  -->
+  <span class="sample dot"><img src="assets/svg/examples/line.svg" alt="line"/></span>
+  <span class="sample dot"><img src="assets/svg/examples/rectangle.svg" alt="rectangle"/></span>
+  <span class="sample dot"><img src="assets/svg/examples/circle.svg" alt="circle"/></span>
+  <span class="sample dot"><img src="assets/svg/examples/polygon.svg" alt="polygon"/></span>
+  <span class="sample dot"><img src="assets/svg/examples/path.svg" alt="path"/></span>
+  <span class="sample dot"><img src="assets/svg/examples/curve.svg" alt="curve"/></span>
 </body>
 </html>

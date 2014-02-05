@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64" fill="black">
 	<g stroke="#3F4649" stroke-width="1" stroke-linecap="round">
 		<circle id="circle1" cx="32" cy="32" r="13" fill="transparent">
-			<animate id="circle1Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 202" to="202 0" dur="0.5s" repeatCount="1"/>
+			<animate id="circle1Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 202" to="202 0" dur="0.5s" begin="0s; pupilAnim.end" repeatCount="1"/>
 		</circle>
 		<circle id="circle2" cx="32" cy="32" r="30" fill="transparent" stroke-dasharray="1 202" stroke-dashoffset="5">
 			<animate id="circle2Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 202" to="202 0" dur="0.5s" begin="circle1Anim.end" repeatCount="1"/>
@@ -13,7 +13,7 @@
 			<animate id="line2Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 32" to="32 0" dur="0.25s" begin="circle2Anim.end" repeatCount="1"/>
 		</line>
 		<path id="sclera1" d="M6,32 c0.01,0.011,11.646,13,26,13c14.354,0,25.99-12.987,26-13" fill="transparent" stroke-dasharray="1 64" stroke-dashoffset="5">
-			<animate id="sclera1Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 64" to="64 0" dur="0.35s" repeatCount="1"/>
+			<animate id="sclera1Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 64" to="64 0" dur="0.35s" begin="0s; pupilAnim.end" repeatCount="1"/>
 		</path>
 		<path id="sclera2" d="M58,32 c-0.01-0.014-11.646-13-26-13C17.646,19,6.011,31.986,6,32" fill="transparent" stroke-dasharray="1 64" stroke-dashoffset="5">
 			<animate id="sclera2Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 64" to="64 0" dur="0.35s" begin="sclera1Anim.end" repeatCount="1"/>

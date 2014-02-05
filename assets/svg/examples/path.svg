@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+	<g transform="translate(16.5,16.5)">
+		<path id="path" d="M 16 0 L 0 32 L 32 32 z " stroke="red" stroke-width="1" fill="transparent" /> 
+		<!--
+		Preceeding letters are referred to as "Command Letters"
+		M indicates a moveto
+		L indicate a lineto
+		z indicates a closepath
+		H indicates a Horizontal line (no y position is required)
+		V indicates a Vertical line (no y position is required)
+		uppercase means absolute coordinates
+		lowercase means relative coordinates
+		spaces and repeating command letters can be eliminated
+		-->
+	</g>
+</svg>
+		
