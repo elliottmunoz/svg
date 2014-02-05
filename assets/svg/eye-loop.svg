@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64" fill="black">
 	<g stroke="#3F4649" stroke-width="1" stroke-linecap="round">
 		<circle id="circle1" cx="32" cy="32" r="13" fill="transparent">
-			<animate id="circle1Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 202" to="202 0" dur="0.5s" begin="0s" repeatCount="1"/>
+			<animate id="circle1Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 202" to="202 0" dur="0.5s" repeatCount="1"/>
 		</circle>
 		<circle id="circle2" cx="32" cy="32" r="30" fill="transparent" stroke-dasharray="1 202" stroke-dashoffset="5">
 			<animate id="circle2Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="4 202" to="202 0" dur="0.5s" begin="circle1Anim.end" repeatCount="1"/>
