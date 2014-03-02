@@ -1,0 +1,17 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1200px" height="640px">
+	<defs>
+		<path id="pitch" fill="none" stroke-width="5" stroke-linecap="round" d="M10.072,308.909 C-100.78-784.189,836.161,1494.543,1081,94.916"/>
+		<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" stop-color="#5de421" stop-opacity="1" />
+			<stop offset="3%" stop-color="#e0fa07" stop-opacity="1" />
+			<stop offset="56%" stop-color="#e4212e" stop-opacity="1" />
+			<stop offset="60%" stop-color="#f01121" stop-opacity="1" />
+			<stop offset="100%" stop-color="#e86f0d" stop-opacity="1" />
+		</linearGradient>
+		<filter id="blur">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+		</filter>
+	</defs>
+	<use x="30" y="60" xlink:href="#pitch" stroke="black" filter="url(#blur)"/>
+	<use x="0" y="0" xlink:href="#pitch" stroke="url(#gradient)"/>
+</svg>

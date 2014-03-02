@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"storke",
+				"stroke-width"
+			],
+			[
 				"get",
 				"getElementById"
 			],
@@ -19,11 +23,27 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 107.0,
+		"height": 128.0,
 		"selected_items":
 		[
 			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"update pa",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
 				"Package Control: Install Package"
 			],
 			[
@@ -35,7 +55,7 @@
 				"LiveReload: Enable/disable plug-ins"
 			]
 		],
-		"width": 467.0
+		"width": 561.0
 	},
 	"console":
 	{
@@ -56,10 +76,21 @@
 	},
 	"file_history":
 	[
-		"/Users/elliottmunoz/GitHub/svg/assets/svg/eye-loop.svg",
-		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/ellipse.svg",
+		"/Users/elliottmunoz/Dropbox/Clients/Khan Academy/khan_academy.txt",
+		"/Users/elliottmunoz/Dropbox/Clients/Homespun/Homespun.txt",
+		"/Users/elliottmunoz/Documents/Khan Academy/commoncore.txt",
+		"/Users/elliottmunoz/Documents/ESPN/espn.txt",
+		"/Users/elliottmunoz/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/elliottmunoz/Desktop/96E.txt",
+		"/Users/elliottmunoz/Desktop/khan_academy.txt",
+		"/Users/elliottmunoz/GitHub/clients/ci/demo/cluster/cluster.html",
+		"/Users/elliottmunoz/Desktop/Demo/demo.html",
+		"/Users/elliottmunoz/GitHub/svg/assets/svg/clock.svg",
+		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/clock.svg",
 		"/Users/elliottmunoz/GitHub/svg/eye.html",
 		"/Users/elliottmunoz/GitHub/svg/assets/svg/eye.svg",
+		"/Users/elliottmunoz/GitHub/svg/assets/svg/eye-loop.svg",
+		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/ellipse.svg",
 		"/Users/elliottmunoz/GitHub/svg/post.html",
 		"/Users/elliottmunoz/GitHub/svg/assets/stylesheets/main.css",
 		"/Users/elliottmunoz/GitHub/svg/assets/svg/examples/curve.svg",
@@ -116,7 +147,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -130,6 +161,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</a></li>",
+			"We got links dog!!!",
+			"\">\n",
+			"\"></a></li>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -154,7 +189,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 42.0
 	},
 	"input":
 	{
@@ -190,7 +225,7 @@
 	"project": "svg.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":
