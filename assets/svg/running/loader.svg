@@ -1,0 +1,8 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="248" height="248">
+<path fill="none" stroke="#8B60A3" stroke-width="10" stroke-dasharray="1 1000" d="M138.138,237.132
+	c-7.811,7.811-20.475,7.811-28.285,0l-98.995-98.994c-7.811-7.811-7.811-20.475,0-28.285l98.995-98.995
+	c7.811-7.811,20.475-7.811,28.285,0l98.994,98.995c7.811,7.81,7.811,20.474,0,28.285L138.138,237.132z">
+	<animate id="line1Anim" attributeName="stroke-dasharray" fill="freeze" type="translate" from="1 1000" to="1000 1" dur="2s" repeatCount="1"/>
+	<animate id="line1Anim" attributeName="stroke-dashoffset" fill="freeze" type="translate" from="0" to="-100" dur="1s" repeatCount="1"/>
+</path>
+</svg>
