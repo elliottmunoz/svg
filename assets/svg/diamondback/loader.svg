@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1200" width="1200">
+	<g transform="translate(0,0)">
+		<defs>
+			<clipPath id="clipPath">
+				<path id="circle" d="M600,0C268.629,0,0,268.629,0,600s268.629,600,600,600s600-268.629,600-600S931.371,0,600,0z M1022.85,1022.85
+	c-54.92,54.92-118.873,98.038-190.082,128.157C759.045,1182.189,680.73,1198,600,1198s-159.045-15.811-232.768-46.993
+	c-71.209-30.119-135.162-73.237-190.082-128.157S79.112,903.977,48.993,832.768C17.811,759.045,2,680.73,2,600
+	s15.811-159.045,46.993-232.768C79.112,296.023,122.23,232.07,177.15,177.15S296.023,79.112,367.232,48.993
+	C440.955,17.811,519.27,2,600,2s159.045,15.811,232.768,46.993C903.977,79.112,967.93,122.23,1022.85,177.15
+	s98.039,118.873,128.157,190.082C1182.189,440.955,1198,519.27,1198,600s-15.811,159.045-46.993,232.768
+	C1120.889,903.977,1077.77,967.93,1022.85,1022.85z"/>
+				</clipPath>
+				<radialGradient id="gradient" cx="50%" cy="50%" r="50%" fx="100%" fy="50%">
+					<stop offset="0%" style="stop-color:#e4212e;stop-opacity:1" />
+					<stop offset="100%" style="stop-color:#e4212e;stop-opacity:0" />
+				</radialGradient>
+			</defs>
+			<g style="clip-path: url(#clipPath);">
+				<path id="outline" fill="transparent" d="M 600, 600 m -596, 0 a 596,596 0 1,0 1192,0 a 596,596 0 1,0 -1192,0" />
+				<circle id="dot" cx="0" cy="0" r="400" fill="url(#gradient)">
+					<animateMotion dur="1" repeatCount="indefinite" rotate="auto">
+						<mpath xlink:href="#outline" />
+					</animateMotion>
+				</circle>
+			</g>
+		</g>
+	</svg>
