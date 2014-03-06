@@ -18,7 +18,7 @@
 			<g style="clip-path: url(#clipPath);">
 				<path id="outline" fill="transparent" d="M 600, 600 m -596, 0 a 596,596 0 1,0 1192,0 a 596,596 0 1,0 -1192,0" />
 				<circle id="dot" cx="0" cy="0" r="400" fill="url(#gradient)">
-					<animateMotion dur="1" repeatCount="indefinite" rotate="auto">
+					<animateMotion dur="1" repeatCount="indefinite" rotate="auto-reverse">
 						<mpath xlink:href="#outline" />
 					</animateMotion>
 				</circle>
