@@ -14,7 +14,7 @@
 				<path id="outline" fill="transparent" d="M 32, 32 m -30, 0 a 30,30 0 1,0 60,0 a 30,30 0 1,0 -60,0" />
 				<circle id="dot" cx="0" cy="0" r="32" fill="url(#gradient)">
 					<animateMotion dur="1" repeatCount="indefinite" rotate="auto">
-						<mpath xlink:href="#outline" />
+						<mpath xlink:href="w#outline" />
 					</animateMotion>
 				</circle>
 			</g>

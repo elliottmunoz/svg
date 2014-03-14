@@ -9,8 +9,10 @@
 	<style type="text/css">
 		body{background: black; margin: 0px; padding: 0px;}
 		.pointer, .sequence{width: 100%; position: absolute;}
-		.pointer img, .step img{display: block; width: 100%; }
+		.pointer img, .step img{display: block; width: 100%;}
+		.stat{width: 300px; color: white; position: absolute;left: 850px; top: 100px;}
 	</style>
+
 </head>
 <body>
     <div class="sequence">
@@ -22,9 +24,12 @@
 		<span class="pointer">
 			<img src="assets/svg/diamondback/pointer1.svg" alt="pointer"/>
 		</span>
+
 		<span class="pointer">
 			<img src="assets/svg/diamondback/pointer2.svg" alt="pointer"/>
 		</span>
+		<div class="stat" id="ziegler-1">“There’s no right way to throw. For me, it’s mostly as easy as stepping onto the mound with my right foot first instead of my left. Other than that, just find something that feels comfortable and go from there.”</div>
 	</div>
+	<script src="assets/javascripts/pointers.js"></script>
 </body>
 </html>

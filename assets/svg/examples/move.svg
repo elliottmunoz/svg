@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+	<g transform="translate(16.5,32.5)">
+		<line id="line" x1="0" y1="0" x2="32" y2="0" stroke="red" stroke-linecap="round" stoke-width="1">
+			<animateTransform attributeName="transform" type="translate" dur="0.5s" fill="freeze" values="0,-20;0,20;0,-20" repeatCount="indefinite"/>
+		</line>
+	</g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+	<g transform="translate(16.5,16.5)">
+		<circle cx="16" cy="16" r="16" stroke="#ddd" stroke-width="1" fill="transparent" />
+		<path id="circle" fill="transparent" d="M 16, 16 m -16, 0 a 16,16 0 1,0 32,0 a 16,16 0 1,0 -32,0" />
+		<polygon id="polygon" points="0,8 8,8 4,0" stroke="red" stroke-width="1" fill="transparent">
+			<animateMotion dur="1" repeatCount="indefinite" rotate="auto-reverse">>
+				<mpath xlink:href="#circle" />
+			</animateMotion>
+		</polygon>
+	</g>
+</svg>
