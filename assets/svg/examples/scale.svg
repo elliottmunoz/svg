@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
 	<g transform="translate(16.5,32.5)">
-		<line id="line" x1="0" y1="0" x2="32" y2="0" stroke="red" stroke-linecap="round" stoke-width="1" />
+		<line id="line" x1="0" y1="0" x2="32" y2="0" stroke="red" stroke-linecap="round" stoke-width="1" transform="translate(16.5,0)">
+			<animateTransform attributeName="transform" type="scale" dur=".5s" values="0;1.5;0" repeatCount="indefinite" additive="sum"/>
+			<animateTransform attributeName="transform" type="translate" dur=".5s" fill="freeze" values="0,0;-16.5,0;0,0" repeatCount="indefinite" additive="sum"/>
+			<!--
+				When combining elements, you must set the additive property to "sum"
+			-->
+		</line>
 	</g>
 </svg>
