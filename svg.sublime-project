@@ -4,14 +4,6 @@
 		{
 			"follow_symlinks": true,
 			"path": "."
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/Users/elliottmunoz/GitHub/mapbox"
-		},
-		{
-			"follow_symlinks": true,
-			"path": "/Users/elliottmunoz/GitHub/clients/e"
 		}
 	]
 }

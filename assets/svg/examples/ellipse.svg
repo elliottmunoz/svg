@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
 	<g transform="translate(32.5,32.5)">
-		<ellipse id="circle" rx="24" ry="12" stroke="red" stroke-width="1" fill="transparent" />
+		<ellipse id="ellipse" rx="24" ry="12" stroke="red" stroke-width="1" fill="transparent" />
 	</g>
 </svg>

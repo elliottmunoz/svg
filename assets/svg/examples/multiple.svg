@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="64" width="64">
+	<g transform="translate(16.5,32.5)">
+		<line id="line" x1="0" y1="0" x2="32" y2="0" stroke="red" stroke-linecap="round" stoke-width="1">
+			<animateTransform id="move" attributeName="transform" type="translate" dur="0.5s" fill="freeze" values="0,0;0,-20;0,20;0,0" repeatCount="1" begin="0;opacity.end"/>
+			<animate id="opacity" attributeName="opacity" values="0;1;0" dur=".5s" repeatCount="3" begin="move.end"/>
+		</line>
+	</g>
+</svg>
